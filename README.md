@@ -137,24 +137,25 @@ Building a modern data warehouse with SQL Server, covering ETL, data modeling, a
 
 data-warehouse-project/
 │
-├── datasets/ # Raw datasets (ERP and CRM data)
+├── datasets/                       # Raw datasets (ERP and CRM data)
 │
-├── docs/ # Project documentation and architecture details
-│ ├── etl.drawio # ETL methods and techniques diagrams
-│ ├── data_architecture.drawio # Overall project architecture diagrams
-│ ├── data_catalog.md # Dataset catalog with field descriptions and metadata
-│ ├── data_flow.drawio # Data flow diagrams
-│ ├── data_models.drawio # Data model diagrams (star schema)
-│ ├── naming-conventions.md # Table, column, and file naming guidelines
+├── docs/                           # Project documentation and architecture details
+│   ├── etl.drawio                  # ETL methods and diagrams
+│   ├── data_architecture.drawio    # Project architecture diagrams
+│   ├── data_catalog.md             # Dataset catalog and field metadata
+│   ├── data_flow.drawio            # Data flow diagrams
+│   ├── data_models.drawio          # Data models (star schema)
+│   ├── naming-conventions.md       # Naming guidelines for tables and columns
 │
-├── scripts/ # SQL scripts for ETL and transformations
-│ ├── bronze/ # Extracting and loading raw data (Bronze layer)
-│ ├── silver/ # Cleaning and transforming data (Silver layer)
-│ ├── gold/ # Analytical model creation (Gold layer)
+├── scripts/                        # SQL scripts for ETL and transformations
+│   ├── bronze/                     # Raw extraction and load scripts
+│   ├── silver/                     # Data cleaning and transformation scripts
+│   ├── gold/                       # Analytical model creation scripts
 │
-├── tests/ # Test scripts and data quality files
+├── tests/                          # Test scripts and data quality checks
 │
-├── README.md # Project overview and instructions
-├── LICENSE # License information
-├── .gitignore # Files and directories to exclude from Git
-└── requirements.txt # Project dependencies and requirements
+├── README.md                       # Project overview and instructions
+├── LICENSE                         # License information
+├── .gitignore                      # Files/directories to exclude from Git
+└── requirements.txt                # Project dependencies
+
