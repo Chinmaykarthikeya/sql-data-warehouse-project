@@ -135,3 +135,26 @@ Building a modern data warehouse with SQL Server, covering ETL, data modeling, a
 
 ## 📂 Repository Structure
 
+data-warehouse-project/
+│
+├── datasets/ # Raw datasets (ERP and CRM data)
+│
+├── docs/ # Project documentation and architecture details
+│ ├── etl.drawio # ETL methods and techniques diagrams
+│ ├── data_architecture.drawio # Overall project architecture diagrams
+│ ├── data_catalog.md # Dataset catalog with field descriptions and metadata
+│ ├── data_flow.drawio # Data flow diagrams
+│ ├── data_models.drawio # Data model diagrams (star schema)
+│ ├── naming-conventions.md # Table, column, and file naming guidelines
+│
+├── scripts/ # SQL scripts for ETL and transformations
+│ ├── bronze/ # Extracting and loading raw data (Bronze layer)
+│ ├── silver/ # Cleaning and transforming data (Silver layer)
+│ ├── gold/ # Analytical model creation (Gold layer)
+│
+├── tests/ # Test scripts and data quality files
+│
+├── README.md # Project overview and instructions
+├── LICENSE # License information
+├── .gitignore # Files and directories to exclude from Git
+└── requirements.txt # Project dependencies and requirements
