@@ -132,7 +132,6 @@ Building a modern data warehouse with SQL Server, covering ETL, data modeling, a
 
 
 
-
 ## 📂 Repository Structure
 
 data-warehouse-project/
