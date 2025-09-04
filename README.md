@@ -47,13 +47,9 @@ All tools and materials are free [10]:
 - **Notion Template:** Project management and phases.
 
 Direct resource links:
-- [Datasets](datasets/)
-- [SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
-- [SSMS](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
-- [DrawIO](https://www.drawio.com/)
-- [Notion Project Template](https://www.notion.com/templates/sql-data-warehouse-project)
-- [Project Steps (Notion)](https://thankful-pangolin-2ca.notion.site/SQL-Data-Warehouse-Project-16ed041640ef80489667cfe2f380b269?pvs=4)
-
+- [Datasets]((https://github.com/Chinmaykarthikeya/sql-data-warehouse-project/tree/68aaf3e696fc0ccfd0b06cfaf054f8163f5b52a4/datasets))
+- [sql-server](https://github.com/Chinmaykarthikeya/sql-data-warehouse-project/tree/68aaf3e696fc0ccfd0b06cfaf054f8163f5b52a4/scripts)
+- [Notion Project Template]([https://www.notion.com/templates/sql-data-warehouse-project](https://www.notion.so/Data-Ware-House-Project-25f54a3b7009803bbe4cd6298e594f02?source=copy_link))
 ---
 
 ## 🚀 Project Requirements
